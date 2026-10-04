@@ -10,9 +10,3 @@ The HomeApp needs to manage various home services for an intelligent home system
 - **AirConditioning:** A service class implementing HomeService, responsible for turning the air conditioning on and off. Includes `turnOn()` and `turnOff()`.
 - **HomeInterface:** The facade class that coordinates interactions between the client (HomeApp) and the individual home services. Includes `turnOnAll()` and `turnOffAll()`.
 - **HomeApp:** The client class that uses the HomeInterface to access and utilize home services seamlessly.
-
-## How to Run
-```
-javac *.java
-java HomeApp
-```
